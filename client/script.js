@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://firstcodeai.onrender.com', {
+    const response = await fetch('https://mr-d-ai-world.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
