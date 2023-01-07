@@ -117,12 +117,13 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: #40414F url(https://th.bing.com/th/id/OIP.DbdY_cuUBGN3OJ6bhspH2AAAAA?pid=ImgDet&rs=1) no-repeat;
 
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
+
 
 textarea {
   width: 100%;
