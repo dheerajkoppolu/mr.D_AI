@@ -14,7 +14,7 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://www.canva.com/design/DAFXEJzWN-4/cwi2rUWq8BtTOsINcvNi-A/edit?utm_content=DAFXEJzWN-4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton');
+  background-image: url('/assets/mr.d.png');
   background-size: cover;
   background-position: center;
 
