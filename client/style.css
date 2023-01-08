@@ -79,7 +79,7 @@ body {
 }
 
 .ai .profile {
-  background: #10a37f;
+  background: transparent;
 }
 
 .profile img {
@@ -130,7 +130,7 @@ form {
 textarea {
   width: 100%;
 
-  color: #fff;
+  color: transparent;
   font-size: 18px;
 
   padding: 10px;
