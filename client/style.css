@@ -14,8 +14,8 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://i.pinimg.com/originals/2b/9c/2a/2b9c2a214189f1f6f29a83a2038d02ee.jpg');
-  background-size: auto;
+  background-image: url('https://www.canva.com/design/DAFXEJzWN-4/cwi2rUWq8BtTOsINcvNi-A/edit?utm_content=DAFXEJzWN-4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton');
+  background-size: cover;
   background-position: center;
 
   display: flex;
