@@ -130,7 +130,7 @@ form {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 
