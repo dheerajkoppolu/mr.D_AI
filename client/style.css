@@ -71,7 +71,6 @@ body {
   width: 36px;
   height: 36px;
   border-radius: 5px;
-
   background: #444444;
 
   display: flex;
@@ -157,4 +156,16 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+
+.user {
+  align-self: flex-end;
+}
+
+.user .profile {
+  background: #5b5b5b;
+}
+
+.user .message {
+  text-align: right;
 }
