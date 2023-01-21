@@ -9,7 +9,30 @@
   </head>
   <body>
     <div id="app">
-      <div id="chat_container"></div>
+      <div id="chat_container">
+        <!-- Chat messages should be added here -->
+        <div class="wrapper">
+          <div class="chat">
+            <div class="profile">
+              <img src="path/to/profile-image.jpg" alt="profile" />
+            </div>
+            <div class="message">
+              User message goes here
+            </div>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <div class="chat">
+            <div class="profile ai">
+              <img src="path/to/profile-image.jpg" alt="profile" />
+            </div>
+            <div class="message ai">
+              AI message goes here
+            </div>
+          </div>
+        </div>
+      </div>
 
       <form>
         <textarea name="prompt" rows="1" cols="1" placeholder="Ask Mr.D..."></textarea>
