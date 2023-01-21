@@ -78,8 +78,10 @@ body {
   align-items: center;
 }
 
+
 .ai .profile {
-  background: #5b5b5b;
+  order: 0;
+  align-self: flex-start;
 }
 
 .profile img {
@@ -115,8 +117,9 @@ body {
   display: none;
 }
 
+
 .ai .message {
-  text-align: right;
+  text-align: left;
 }
 
 form {
@@ -159,7 +162,7 @@ form img {
 }
 
 .user {
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .user .profile {
