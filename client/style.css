@@ -91,7 +91,7 @@ body {
 }
 
 .message {
-  flex: 0;
+  flex: 1;
 
   color: #dcdcdc;
   font-size: 20px;
