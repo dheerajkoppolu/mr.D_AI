@@ -55,6 +55,9 @@ body {
 .ai {
   background: rgba(64, 65, 79, 0.6);
 }
+.user {
+  background: rgba(64, 65, 79, 0.4);
+}
 
 .chat {
   width: 100%;
