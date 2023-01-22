@@ -168,6 +168,10 @@ form img {
 .user .profile {
   background: #5b5b5b;
 }
+.user .profile {
+  order: 2;
+  align-self: flex-start;
+}
 
 .user .message {
   text-align: right;
