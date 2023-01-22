@@ -62,7 +62,7 @@ body {
   margin: 0 auto;
 
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: flex-start;
   gap: 10px;
 }
@@ -165,13 +165,6 @@ form img {
   align-self: flex-start;
 }
 
-.user .profile {
-  background: #5b5b5b;
-}
-.user .profile {
-  order: 2;
-  align-self: flex-start;
-}
 
 .user .message {
   text-align: right;
