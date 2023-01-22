@@ -119,7 +119,7 @@ body {
 
 
 .ai .message {
-  text-align: right;
+  text-align: left;
 }
 
 form {
@@ -162,7 +162,7 @@ form img {
 }
 
 .user {
-  align-self: flex-start;
+  align-self: flex-end;
 }
 
 
