@@ -9,14 +9,34 @@
   </head>
   <body>
     <div id="app">
-      <div id="chat_container"></div>
+      <div id="chat_container">
+        <div class="wrapper">
+          <div class="chat">
+            <div class="profile">
+              <img src="assets/user.svg" alt="user" />
+            </div>
+            <div class="message">
+              <p>Hello, How can I help you?</p>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="chat ai">
+            <div class="profile">
+              <img src="assets/ai.svg" alt="ai" />
+            </div>
+            <div class="message">
+              <p>I am an AI, I can help you with any queries or information you need. What can I assist you with today?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <form>
+    <textarea name="prompt" rows="1" cols="1" placeholder="Ask Mr.D..."></textarea>
+    <button type="submit"><img src="assets/send.svg" alt="send" />
+  </form>
+</div>
 
-      <form>
-        <textarea name="prompt" rows="1" cols="1" placeholder="Ask Mr.D..."></textarea>
-        <button type="submit"><img src="assets/send.svg" alt="send" />
-      </form>
-    </div>
-
-    <script type="module" src="script.js"></script>
-  </body>
+<script type="module" src="script.js"></script>
+ </body>
 </html>
